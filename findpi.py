@@ -33,7 +33,7 @@ while ch == 'y':
     print('\n'*8)  # Space
 
     print(Fore.RED + '\nWarning:' + Fore.YELLOW + 'The Maximum: 50!!\n'
-          + ' '*8 + 'Only whole numbers of decimal place can enter!\n' + ' '*8 + 'eg: 0,4,23,51\n'
+          + ' '*8 + 'Only whole numbers of decimal place can enter!\n' + ' '*8 + 'eg: 0,4,23,50\n'
           + Fore.RESET)  # Warning
     # maximum is 51 but allow to enter to 55!!!
 
