@@ -7,7 +7,7 @@
 
 advantage  : if you(user) enter other input instead of number , no effect on this program.
 
-diadvantage: program output materials form is depend on the size of your(user's) terminal.
+disadvantage: program output materials form is depend on the size of your(user's) terminal.
 
 But don't worry. even the view is not clear , this program can work exactly
  
