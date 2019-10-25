@@ -50,7 +50,7 @@ while ch == 'y':
             continue
         # if user enter negative values, this error handling can fix
         # Generate Less than 51
-    if n > 55:
+    if n > 50:
         print(Fore.CYAN + '\nPi: ' + Fore.RESET + '%1.51f' % pi)
         print(Fore.LIGHTRED_EX + "\nThis generator can't generate after 51th." + Fore.RESET)
         # Generate greater than 55
