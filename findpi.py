@@ -52,7 +52,7 @@ while ch == 'y':
         # Generate Less than 56
     if n > 55:
         print(Fore.CYAN + '\nPi: ' + Fore.RESET + '%1.56f' % pi)
-        print(Fore.LIGHTRED_EX + "\nThe Decimal number after the 51 are zero" + Fore.RESET)
+        print(Fore.LIGHTRED_EX + "\nThis generator can't generate after 51th." + Fore.RESET)
         # Generate greater than 55
 
     ch = input(Fore.GREEN + '\nEnter {-y-} to do again: ' + Fore.RESET)  # ask do again
