@@ -35,7 +35,6 @@ while ch == 'y':
     print(Fore.RED + '\nWarning:' + Fore.YELLOW + 'The Maximum: 50!!\n'
           + ' '*8 + 'Only whole numbers of decimal place can enter!\n' + ' '*8 + 'eg: 0,4,23,50\n'
           + Fore.RESET)  # Warning
-    # maximum is 50 but allow to enter to 55!!!
 
     try:
         n = int(input(Fore.CYAN + "\nEnter the nth decimal place of pi: " + Fore.GREEN))
@@ -53,11 +52,10 @@ while ch == 'y':
     if n > 50:
         print(Fore.CYAN + '\nPi: ' + Fore.RESET + '%1.51f' % pi)
         print(Fore.LIGHTRED_EX + "\nThis generator can't generate after 51th." + Fore.RESET)
-        # Generate greater than 55
+        # Generate greater than 50
 
     ch = input(Fore.GREEN + '\nEnter {-y-} to do again: ' + Fore.RESET)  # ask do again
 
     print('\n'*4)  # Space
 
 
-# ******************************************************************************************** #
